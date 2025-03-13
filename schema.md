@@ -48,8 +48,25 @@ schema:
 
 ---
 
+table: eigenlayer_ethereum.strategy_shares_inflow_by_day
 
+schema:
+| name | type |
+| --- | --- |
+| strategy | binary |
+| shares | decimal(38,0) |
+| date | timestamp |
 
+---
+
+table: eigenlayer_ethereum.strategy_shares_netflow_by_day
+
+schema:
+| name | type |
+| --- | --- |
+| strategy | binary |
+| shares | decimal(38,0) |
+| date | timestamp |
 
 
 
